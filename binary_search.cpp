@@ -1,7 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
-
 using namespace std;
 
 long binary_search(const vector<int>& A, long p, long q, int key)
