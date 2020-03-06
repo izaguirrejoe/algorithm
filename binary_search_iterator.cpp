@@ -1,3 +1,4 @@
+//Only works with random access iterators
 template <class Iterator, class Element>
 Iterator my_binary_search (Iterator begin, Iterator end, const Element& key){
     Iterator not_found = end;
